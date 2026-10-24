@@ -4,7 +4,7 @@
 
 ### Ferramentas, presença e experiências de perfil no Discord
 
-**Tools · Rich Presence · Sessões VR · Painéis interativos**
+**Limpeza de DMs · Farm Call · HypeSquad · Rich Presence · VR**
 
 Uma suíte proprietária que reúne utilitários de conta, personalização e controle de atividades em uma interface centralizada.
 
@@ -20,20 +20,113 @@ O SNX Tools organiza diferentes recursos para Discord em um painel de ferramenta
 
 A experiência foi construída para manter configurações e ações acessíveis em um só lugar, com áreas de operação e administração.
 
-## Central de ferramentas
+## Catálogo de ferramentas
 
-| Área | Recursos identificados |
+### Limpeza e organização da conta
+
+| Função | O que oferece |
 | --- | --- |
-| Organização de conta | Utilitários para gerenciar DMs, grupos, servidores e amizades. |
-| Perfis | Módulos de consulta de perfil Discord e Roblox. |
-| Identidade visual | Recursos relacionados a badges e apresentação da evolução do perfil. |
-| Usernames | Ferramentas de descoberta e monitoramento de nomes. |
-| Presença | Configuração de Rich Presence e alternância de status. |
-| Comunidade | Configuração de canais, cargos, painéis e tutoriais. |
-| Acesso | Concessão temporária de acesso às Tools e administração de permissões internas. |
-| VR | Controles dedicados para vínculo, ativação, pausa e recuperação da sessão. |
+| **Limpar DMs** | Limpeza das mensagens da própria conta nas conversas abertas. |
+| **Limpar DM específica** | Direcionamento da limpeza para uma conversa selecionada. |
+| **Fechar DMs** | Organização da lista de conversas, fechando DMs abertas. Fechar a conversa é uma ação diferente de excluir mensagens. |
+| **Sair de grupos** | Saída dos grupos de mensagem direta da conta configurada. |
+| **Sair de servidores** | Gestão de saída de servidores, com opções para preservar servidores selecionados. |
+| **Remover amizades** | Remoção de vínculos de amizade pela central de ferramentas. |
+| **Limpar mensagens de servidores** | Limpeza das mensagens da própria conta em servidores específicos. |
+| **Remover OAuth2** | Gerenciamento da remoção de autorizações de aplicativos vinculados à conta. |
+| **Parar execução** | Controle para interromper as rotinas que disponibilizam essa opção no painel. |
 
-Esta apresentação descreve capacidades da interface e módulos identificados; não funciona como manual de configuração ou operação.
+As ferramentas atuam sobre a conta configurada e seus acessos. A disponibilidade de cada ação depende das permissões e das respostas do Discord.
+
+### Backup e extração de mensagens
+
+O projeto também reúne recursos para organizar e preservar conteúdo de conversas:
+
+- **Backup de mensagens:** geração de transcript de uma DM.
+- **Extração de mensagens:** encaminhamento de conteúdo entre canais selecionados.
+- **Filtros de conteúdo:** seleção de mídia, arquivos ou conjunto completo.
+- **Destino configurável:** definição do canal que recebe o conteúdo.
+- **Mensagem complementar:** opção de texto padrão no fluxo de extração.
+
+Essas funções são apresentadas como recursos de organização de conteúdo acessível à conta, sem publicar conversas ou dados de usuários neste repositório.
+
+### Farm Call
+
+O **Farm Call** reúne os controles de permanência da conta em um canal de voz. O painel permite configurar o canal, iniciar a sessão e encerrá-la.
+
+O módulo de voz acompanha a conexão e possui estados relacionados a microfone, áudio, câmera e transmissão. Esses estados fazem parte do gerenciamento da sessão; não constituem promessa de transmissão real de mídia, recompensa, horas contabilizadas ou benefício concedido pelo Discord.
+
+A proposta da interface é centralizar o controle da sessão de voz, com início, parada e acompanhamento do resultado.
+
+### HypeSquad
+
+O painel de **HypeSquad** apresenta as opções **Bravery**, **Brilliance** e **Balance**, além do controle para remover o HypeSquad da conta configurada.
+
+- Visualização da casa identificada na conta.
+- Seleção da casa desejada.
+- Troca entre as opções apresentadas.
+- Remoção pelo próprio painel.
+- Identificação da conta à qual a alteração se refere.
+- Registro da ação e resposta de sucesso ou falha.
+
+A existência do módulo não garante disponibilidade permanente da função na plataforma nem concessão de outras badges.
+
+### Perfis, badges e identidade digital
+
+A suíte contém módulos dedicados à consulta e à apresentação de perfis:
+
+| Área | Recursos |
+| --- | --- |
+| **Perfil Discord** | Consulta e apresentação de informações de perfil. |
+| **Perfil Roblox** | Módulo específico de consulta de perfil Roblox. |
+| **Badges** | Área dedicada à apresentação e ao gerenciamento dos recursos de badges disponíveis na suíte. |
+| **Evolução do perfil** | Recursos visuais relacionados à evolução e à identidade do perfil. |
+| **Username Finder** | Descoberta de candidatos a nomes de usuário. |
+| **Username Monitor** | Acompanhamento de usernames. |
+| **Marcar user** | Agendamento de tentativa de troca para um username quando ele se tornar disponível, com opção de cancelar a marcação. |
+
+Monitoramento e tentativa de alteração não reservam usernames nem garantem que a plataforma permitirá a atribuição.
+
+### Status, atividade e streaming
+
+Além de Rich Presence e VR, a suíte inclui:
+
+- **Alternar status:** configuração de uma lista de status e emojis, com intervalo entre alternâncias.
+- **Streaming:** módulo dedicado ao gerenciamento de atividade de streaming da conta.
+- **RPC:** configuração e controle da presença personalizada.
+- **VR:** vínculo e gerenciamento da sessão de atividade, detalhados adiante.
+
+### Servidores e estrutura de comunidade
+
+| Função | O que oferece |
+| --- | --- |
+| **Clonar servidor** | Reprodução de estrutura entre servidores, com seleção de cargos, canais e emojis e confirmação das opções. |
+| **Criar servidor com IA** | Preparação de estrutura a partir de uma descrição, com prévia, aperfeiçoamento e confirmação. |
+| **Clonar site** | Recurso identificado no catálogo para cópia de uma página a partir de sua URL. |
+| **Setup da comunidade** | Configuração de canais e cargos usados pela suíte. |
+| **Tutoriais** | Painel dedicado a orientar a navegação e o uso dos recursos disponíveis. |
+
+### Mensagens, divulgação e Auto Bump
+
+O catálogo inclui um módulo de **divulgação por DM**, com composição de texto, imagem, embed e botões. A interface reúne edição, prévia, configuração do público e controle do envio.
+
+Também foram identificadas rotinas de **envio repetido em canais** e **Auto Bump**, com configuração de servidor/canal e controles de ativação e desativação. Esta vitrine descreve a existência dessas funções, sem instruções de disparo, contorno de limites ou envio não solicitado.
+
+## Administração e acesso às Tools
+
+A suíte possui uma área administrativa para acompanhar a utilização do produto:
+
+- **Gerenciar Tools:** central de configurações e recursos.
+- **Acesso temporário:** concessão de acesso por usuário e período.
+- **Keys:** criação, resgate e expiração de chaves de acesso.
+- **Planos:** apresentação de opções de duração e acompanhamento de expiração.
+- **Assinatura e pagamento:** fluxo de contratação com Pix identificado na interface.
+- **Blacklist interna:** inclusão, remoção e consulta de usuários.
+- **Gerenciar RPC:** configurações de presença por usuário.
+- **Logs:** canais para notificações de execução, resgate de keys e expiração de planos.
+- **Definições:** ajustes dos painéis e da comunidade.
+
+Os acessos e as credenciais de operação permanecem exclusivamente no ambiente privado do projeto.
 
 ## Rich Presence
 
